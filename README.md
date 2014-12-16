@@ -78,10 +78,10 @@ Example:
 	} else if ([manager status:AFSpritzStatusNotStarted]) {
 
 		// The current status is not started yet
-	}  else if ([manager AFSpritzStatusStopped]) {
+	}  else if ([manager status:AFSpritzStatusStopped]) {
 
 		// The current status is stopped, so it can be resumed
-	} else if ([manager AFSpritzStatusFinished]) {
+	} else if ([manager status:AFSpritzStatusFinished]) {
 
 		// The current status is finished
 	}
@@ -93,11 +93,9 @@ Now you can pause, resume and restart your reading just calling these three meth
 
 ```objc
 	[manager pauseReading];
-```
-```objc
+
 	[manager resumeReading];
-```
-```objc
+    
     [manager restartReading];
 ```
 
