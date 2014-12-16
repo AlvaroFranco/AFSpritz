@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A75590CF18C23BFF003D7763 /* AFSpritzLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A75590CE18C23BFF003D7763 /* AFSpritzLabel.m */; };
+		A75590D118C23CF5003D7763 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75590D018C23CF5003D7763 /* CoreText.framework */; };
+		A77A366B18D618F900B2865F /* NSTimer+Control.m in Sources */ = {isa = PBXBuildFile; fileRef = A77A366A18D618F900B2865F /* NSTimer+Control.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A77AC18518C2360C006368E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77AC18418C2360C006368E7 /* Foundation.framework */; };
+		A77AC18718C2360C006368E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77AC18618C2360C006368E7 /* CoreGraphics.framework */; };
+		A77AC18918C2360C006368E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77AC18818C2360C006368E7 /* UIKit.framework */; };
+		A77AC18F18C2360C006368E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77AC18D18C2360C006368E7 /* InfoPlist.strings */; };
+		A77AC19118C2360C006368E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A77AC19018C2360C006368E7 /* main.m */; };
+		A77AC19518C2360C006368E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A77AC19418C2360C006368E7 /* AppDelegate.m */; };
+		A77AC19818C2360C006368E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A77AC19618C2360C006368E7 /* Main.storyboard */; };
+		A77AC19B18C2360C006368E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A77AC19A18C2360C006368E7 /* ViewController.m */; };
+		A77AC19D18C2360C006368E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77AC19C18C2360C006368E7 /* Images.xcassets */; };
+		A77AC1A418C2360C006368E7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77AC1A318C2360C006368E7 /* XCTest.framework */; };
+		A77AC1A518C2360C006368E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77AC18418C2360C006368E7 /* Foundation.framework */; };
+		A77AC1A618C2360C006368E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77AC18818C2360C006368E7 /* UIKit.framework */; };
+		A77AC1AE18C2360C006368E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A77AC1AC18C2360C006368E7 /* InfoPlist.strings */; };
+		A77AC1B018C2360C006368E7 /* AFSpritz_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A77AC1AF18C2360C006368E7 /* AFSpritz_DemoTests.m */; };
+		A77AC1BB18C2363E006368E7 /* AFSpritzManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A77AC1BA18C2363E006368E7 /* AFSpritzManager.m */; };
+		A77AC1BF18C2365E006368E7 /* AFSpritzWords.m in Sources */ = {isa = PBXBuildFile; fileRef = A77AC1BE18C2365E006368E7 /* AFSpritzWords.m */; };
+		A7B29D8118D8F16300811500 /* SpritzViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7B29D8018D8F16300811500 /* SpritzViewController.m */; };
+		D07A573853A1447E9DDF9AC6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53DF1E28854945BD97712B7C /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A77AC1A718C2360C006368E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A77AC17918C2360C006368E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A77AC18018C2360C006368E7;
+			remoteInfo = "AFSpritz-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		121B0F5E08E04C188CF1F26A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		53DF1E28854945BD97712B7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75590CD18C23BFF003D7763 /* AFSpritzLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSpritzLabel.h; sourceTree = "<group>"; };
+		A75590CE18C23BFF003D7763 /* AFSpritzLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSpritzLabel.m; sourceTree = "<group>"; };
+		A75590D018C23CF5003D7763 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		A77A366918D618F900B2865F /* NSTimer+Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Control.h"; sourceTree = "<group>"; };
+		A77A366A18D618F900B2865F /* NSTimer+Control.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Control.m"; sourceTree = "<group>"; };
+		A77AC18118C2360C006368E7 /* AFSpritz-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFSpritz-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77AC18418C2360C006368E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A77AC18618C2360C006368E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A77AC18818C2360C006368E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A77AC18C18C2360C006368E7 /* AFSpritz-Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFSpritz-Demo-Info.plist"; sourceTree = "<group>"; };
+		A77AC18E18C2360C006368E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A77AC19018C2360C006368E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A77AC19218C2360C006368E7 /* AFSpritz-Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AFSpritz-Demo-Prefix.pch"; sourceTree = "<group>"; };
+		A77AC19318C2360C006368E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A77AC19418C2360C006368E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A77AC19718C2360C006368E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A77AC19918C2360C006368E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A77AC19A18C2360C006368E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A77AC19C18C2360C006368E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A77AC1A218C2360C006368E7 /* AFSpritz-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFSpritz-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77AC1A318C2360C006368E7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A77AC1AB18C2360C006368E7 /* AFSpritz-DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AFSpritz-DemoTests-Info.plist"; sourceTree = "<group>"; };
+		A77AC1AD18C2360C006368E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A77AC1AF18C2360C006368E7 /* AFSpritz_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSpritz_DemoTests.m; sourceTree = "<group>"; };
+		A77AC1B918C2363E006368E7 /* AFSpritzManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSpritzManager.h; sourceTree = "<group>"; };
+		A77AC1BA18C2363E006368E7 /* AFSpritzManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSpritzManager.m; sourceTree = "<group>"; };
+		A77AC1BD18C2365E006368E7 /* AFSpritzWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSpritzWords.h; sourceTree = "<group>"; };
+		A77AC1BE18C2365E006368E7 /* AFSpritzWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSpritzWords.m; sourceTree = "<group>"; };
+		A7B29D7F18D8F16300811500 /* SpritzViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpritzViewController.h; sourceTree = "<group>"; };
+		A7B29D8018D8F16300811500 /* SpritzViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpritzViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A77AC17E18C2360C006368E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75590D118C23CF5003D7763 /* CoreText.framework in Frameworks */,
+				A77AC18718C2360C006368E7 /* CoreGraphics.framework in Frameworks */,
+				A77AC18918C2360C006368E7 /* UIKit.framework in Frameworks */,
+				A77AC18518C2360C006368E7 /* Foundation.framework in Frameworks */,
+				D07A573853A1447E9DDF9AC6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77AC19F18C2360C006368E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77AC1A418C2360C006368E7 /* XCTest.framework in Frameworks */,
+				A77AC1A618C2360C006368E7 /* UIKit.framework in Frameworks */,
+				A77AC1A518C2360C006368E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A77AC17818C2360C006368E7 = {
+			isa = PBXGroup;
+			children = (
+				A77AC18A18C2360C006368E7 /* AFSpritz-Demo */,
+				A77AC1A918C2360C006368E7 /* AFSpritz-DemoTests */,
+				A77AC18318C2360C006368E7 /* Frameworks */,
+				A77AC18218C2360C006368E7 /* Products */,
+				121B0F5E08E04C188CF1F26A /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		A77AC18218C2360C006368E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A77AC18118C2360C006368E7 /* AFSpritz-Demo.app */,
+				A77AC1A218C2360C006368E7 /* AFSpritz-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A77AC18318C2360C006368E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A75590D018C23CF5003D7763 /* CoreText.framework */,
+				A77AC18418C2360C006368E7 /* Foundation.framework */,
+				A77AC18618C2360C006368E7 /* CoreGraphics.framework */,
+				A77AC18818C2360C006368E7 /* UIKit.framework */,
+				A77AC1A318C2360C006368E7 /* XCTest.framework */,
+				53DF1E28854945BD97712B7C /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A77AC18A18C2360C006368E7 /* AFSpritz-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A77AC19318C2360C006368E7 /* AppDelegate.h */,
+				A77AC19418C2360C006368E7 /* AppDelegate.m */,
+				A77AC19618C2360C006368E7 /* Main.storyboard */,
+				A77AC19918C2360C006368E7 /* ViewController.h */,
+				A77AC19A18C2360C006368E7 /* ViewController.m */,
+				A7B29D7F18D8F16300811500 /* SpritzViewController.h */,
+				A7B29D8018D8F16300811500 /* SpritzViewController.m */,
+				A77AC1BC18C2364C006368E7 /* AFSpritz */,
+				A77AC19C18C2360C006368E7 /* Images.xcassets */,
+				A77AC18B18C2360C006368E7 /* Supporting Files */,
+			);
+			path = "AFSpritz-Demo";
+			sourceTree = "<group>";
+		};
+		A77AC18B18C2360C006368E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A77AC18C18C2360C006368E7 /* AFSpritz-Demo-Info.plist */,
+				A77AC18D18C2360C006368E7 /* InfoPlist.strings */,
+				A77AC19018C2360C006368E7 /* main.m */,
+				A77AC19218C2360C006368E7 /* AFSpritz-Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A77AC1A918C2360C006368E7 /* AFSpritz-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A77AC1AF18C2360C006368E7 /* AFSpritz_DemoTests.m */,
+				A77AC1AA18C2360C006368E7 /* Supporting Files */,
+			);
+			path = "AFSpritz-DemoTests";
+			sourceTree = "<group>";
+		};
+		A77AC1AA18C2360C006368E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A77AC1AB18C2360C006368E7 /* AFSpritz-DemoTests-Info.plist */,
+				A77AC1AC18C2360C006368E7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A77AC1BC18C2364C006368E7 /* AFSpritz */ = {
+			isa = PBXGroup;
+			children = (
+				A77AC1B918C2363E006368E7 /* AFSpritzManager.h */,
+				A77AC1BA18C2363E006368E7 /* AFSpritzManager.m */,
+				A77AC1BD18C2365E006368E7 /* AFSpritzWords.h */,
+				A77AC1BE18C2365E006368E7 /* AFSpritzWords.m */,
+				A75590CD18C23BFF003D7763 /* AFSpritzLabel.h */,
+				A75590CE18C23BFF003D7763 /* AFSpritzLabel.m */,
+				A77A366918D618F900B2865F /* NSTimer+Control.h */,
+				A77A366A18D618F900B2865F /* NSTimer+Control.m */,
+			);
+			name = AFSpritz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A77AC18018C2360C006368E7 /* AFSpritz-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77AC1B318C2360C006368E7 /* Build configuration list for PBXNativeTarget "AFSpritz-Demo" */;
+			buildPhases = (
+				B0987A504FCF41E2BC730F6A /* Check Pods Manifest.lock */,
+				A77AC17D18C2360C006368E7 /* Sources */,
+				A77AC17E18C2360C006368E7 /* Frameworks */,
+				A77AC17F18C2360C006368E7 /* Resources */,
+				42838B07B0C049E0BFE2B50F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AFSpritz-Demo";
+			productName = "AFSpritz-Demo";
+			productReference = A77AC18118C2360C006368E7 /* AFSpritz-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A77AC1A118C2360C006368E7 /* AFSpritz-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A77AC1B618C2360C006368E7 /* Build configuration list for PBXNativeTarget "AFSpritz-DemoTests" */;
+			buildPhases = (
+				A77AC19E18C2360C006368E7 /* Sources */,
+				A77AC19F18C2360C006368E7 /* Frameworks */,
+				A77AC1A018C2360C006368E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A77AC1A818C2360C006368E7 /* PBXTargetDependency */,
+			);
+			name = "AFSpritz-DemoTests";
+			productName = "AFSpritz-DemoTests";
+			productReference = A77AC1A218C2360C006368E7 /* AFSpritz-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77AC17918C2360C006368E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = AlvaroFranco;
+				TargetAttributes = {
+					A77AC1A118C2360C006368E7 = {
+						TestTargetID = A77AC18018C2360C006368E7;
+					};
+				};
+			};
+			buildConfigurationList = A77AC17C18C2360C006368E7 /* Build configuration list for PBXProject "AFSpritz-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A77AC17818C2360C006368E7;
+			productRefGroup = A77AC18218C2360C006368E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A77AC18018C2360C006368E7 /* AFSpritz-Demo */,
+				A77AC1A118C2360C006368E7 /* AFSpritz-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A77AC17F18C2360C006368E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77AC19D18C2360C006368E7 /* Images.xcassets in Resources */,
+				A77AC18F18C2360C006368E7 /* InfoPlist.strings in Resources */,
+				A77AC19818C2360C006368E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77AC1A018C2360C006368E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77AC1AE18C2360C006368E7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42838B07B0C049E0BFE2B50F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0987A504FCF41E2BC730F6A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A77AC17D18C2360C006368E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77AC19B18C2360C006368E7 /* ViewController.m in Sources */,
+				A77AC19518C2360C006368E7 /* AppDelegate.m in Sources */,
+				A75590CF18C23BFF003D7763 /* AFSpritzLabel.m in Sources */,
+				A77AC1BF18C2365E006368E7 /* AFSpritzWords.m in Sources */,
+				A77AC1BB18C2363E006368E7 /* AFSpritzManager.m in Sources */,
+				A77AC19118C2360C006368E7 /* main.m in Sources */,
+				A77A366B18D618F900B2865F /* NSTimer+Control.m in Sources */,
+				A7B29D8118D8F16300811500 /* SpritzViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A77AC19E18C2360C006368E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77AC1B018C2360C006368E7 /* AFSpritz_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A77AC1A818C2360C006368E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A77AC18018C2360C006368E7 /* AFSpritz-Demo */;
+			targetProxy = A77AC1A718C2360C006368E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A77AC18D18C2360C006368E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77AC18E18C2360C006368E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A77AC19618C2360C006368E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77AC19718C2360C006368E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A77AC1AC18C2360C006368E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A77AC1AD18C2360C006368E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A77AC1B118C2360C006368E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A77AC1B218C2360C006368E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A77AC1B418C2360C006368E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121B0F5E08E04C188CF1F26A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFSpritz-Demo/AFSpritz-Demo-Prefix.pch";
+				INFOPLIST_FILE = "AFSpritz-Demo/AFSpritz-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A77AC1B518C2360C006368E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121B0F5E08E04C188CF1F26A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFSpritz-Demo/AFSpritz-Demo-Prefix.pch";
+				INFOPLIST_FILE = "AFSpritz-Demo/AFSpritz-Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A77AC1B718C2360C006368E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFSpritz-Demo.app/AFSpritz-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFSpritz-Demo/AFSpritz-Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AFSpritz-DemoTests/AFSpritz-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A77AC1B818C2360C006368E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFSpritz-Demo.app/AFSpritz-Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFSpritz-Demo/AFSpritz-Demo-Prefix.pch";
+				INFOPLIST_FILE = "AFSpritz-DemoTests/AFSpritz-DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A77AC17C18C2360C006368E7 /* Build configuration list for PBXProject "AFSpritz-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77AC1B118C2360C006368E7 /* Debug */,
+				A77AC1B218C2360C006368E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77AC1B318C2360C006368E7 /* Build configuration list for PBXNativeTarget "AFSpritz-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77AC1B418C2360C006368E7 /* Debug */,
+				A77AC1B518C2360C006368E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A77AC1B618C2360C006368E7 /* Build configuration list for PBXNativeTarget "AFSpritz-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77AC1B718C2360C006368E7 /* Debug */,
+				A77AC1B818C2360C006368E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77AC17918C2360C006368E7 /* Project object */;
+}

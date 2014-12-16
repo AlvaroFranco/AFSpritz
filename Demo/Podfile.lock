@@ -1,0 +1,10 @@
+PODS:
+  - AFPopupView (1.0)
+
+DEPENDENCIES:
+  - AFPopupView (~> 1.0)
+
+SPEC CHECKSUMS:
+  AFPopupView: a3e9e827ed9ce4c7087af259746353aaf7ab75a2
+
+COCOAPODS: 0.29.0

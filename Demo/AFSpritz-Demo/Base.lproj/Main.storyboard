@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1id-fM-XVM"/>
+                        <viewControllerLayoutGuide type="bottom" id="LbL-q9-UmI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="AFSpritz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="229" translatesAutoresizingMaskIntoConstraints="NO" id="BNd-yb-yZU">
+                                <rect key="frame" x="53" y="30" width="214" height="69"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="229" translatesAutoresizingMaskIntoConstraints="NO" id="57U-Ac-Bnd">
+                                <rect key="frame" x="46" y="104" width="229" height="63"/>
+                                <string key="text">A complete, lightweight
+Spritz SDK for iOS</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thZ-eB-P5x">
+                                <rect key="frame" x="63" y="430" width="194" height="44"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
+                                <state key="normal" title="Start Reading">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pxc-Zu-qQf">
+                                <rect key="frame" x="20" y="177" width="280" height="138"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="calibratedRGB"/>
+                                <string key="text">Welcome to AFSpritz! Spritz is a brand new revolutionary reading method that will help you to improve your number of words per minute. Take a look at AFSpritz! By the way! You can use this text or customize it.</string>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="A0t-Ny-ZRf">
+                                <rect key="frame" x="32" y="333" width="51" height="31"/>
+                            </switch>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="NqR-fv-5qL">
+                                <rect key="frame" x="104" y="332" width="198" height="34"/>
+                                <color key="tintColor" red="0.32941177487373352" green="0.86274516582489014" blue="0.39215689897537231" alpha="1" colorSpace="deviceRGB"/>
+                            </slider>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="84" translatesAutoresizingMaskIntoConstraints="NO" id="83w-jv-b2l">
+                                <rect key="frame" x="14" y="372" width="84" height="54"/>
+                                <string key="text">Custom
+speed</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="194" translatesAutoresizingMaskIntoConstraints="NO" id="q9P-z7-epJ">
+                                <rect key="frame" x="106" y="372" width="194" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="thZ-eB-P5x" firstAttribute="top" secondItem="83w-jv-b2l" secondAttribute="bottom" constant="4" id="2fk-VM-0rZ"/>
+                            <constraint firstItem="57U-Ac-Bnd" firstAttribute="top" secondItem="BNd-yb-yZU" secondAttribute="bottom" constant="5" id="335-tQ-1jF"/>
+                            <constraint firstItem="BNd-yb-yZU" firstAttribute="top" secondItem="1id-fM-XVM" secondAttribute="bottom" constant="10" id="8dx-Bd-LCS"/>
+                            <constraint firstItem="A0t-Ny-ZRf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="32" id="MIB-OW-CHe"/>
+                            <constraint firstAttribute="trailing" secondItem="NqR-fv-5qL" secondAttribute="trailing" constant="20" id="MiS-Dw-9pf"/>
+                            <constraint firstAttribute="centerX" secondItem="BNd-yb-yZU" secondAttribute="centerX" id="Mls-SW-8WO"/>
+                            <constraint firstItem="A0t-Ny-ZRf" firstAttribute="top" secondItem="Pxc-Zu-qQf" secondAttribute="bottom" constant="18" id="faQ-3K-TmA"/>
+                            <constraint firstItem="NqR-fv-5qL" firstAttribute="leading" secondItem="A0t-Ny-ZRf" secondAttribute="trailing" constant="25" id="le2-F8-e7v"/>
+                            <constraint firstAttribute="centerX" secondItem="Pxc-Zu-qQf" secondAttribute="centerX" id="noX-br-xO0"/>
+                            <constraint firstAttribute="centerX" secondItem="thZ-eB-P5x" secondAttribute="centerX" id="rrV-D6-UVq"/>
+                            <constraint firstItem="83w-jv-b2l" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="14" id="tIm-z5-sHR"/>
+                            <constraint firstAttribute="centerX" secondItem="57U-Ac-Bnd" secondAttribute="centerX" id="uY2-aL-qGs"/>
+                            <constraint firstItem="Pxc-Zu-qQf" firstAttribute="top" secondItem="57U-Ac-Bnd" secondAttribute="bottom" constant="10" id="xqa-CW-ms0"/>
+                            <constraint firstItem="83w-jv-b2l" firstAttribute="top" secondItem="A0t-Ny-ZRf" secondAttribute="bottom" constant="8" id="yMH-Jg-Aau"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="customSpeed" destination="A0t-Ny-ZRf" id="xKq-vc-HYV"/>
+                        <outlet property="showSpritzButton" destination="thZ-eB-P5x" id="oM2-rv-Rwp"/>
+                        <outlet property="textView" destination="Pxc-Zu-qQf" id="gjn-Yh-PLR"/>
+                        <outlet property="wpmLabel" destination="q9P-z7-epJ" id="B9T-fY-RCC"/>
+                        <outlet property="wpmSlider" destination="NqR-fv-5qL" id="fTl-fC-2SR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Spritz View Controller-->
+        <scene sceneID="zhf-TW-0vv">
+            <objects>
+                <viewController storyboardIdentifier="SpritzVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8QF-Ah-h0q" customClass="SpritzViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rac-Oa-T3l"/>
+                        <viewControllerLayoutGuide type="bottom" id="QsS-cW-r2T"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kqL-g0-8SL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="crA-jF-ZOp">
+                                <rect key="frame" x="254" y="20" width="40" height="30"/>
+                                <state key="normal" title="Close">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mP-TO-2zo">
+                                <rect key="frame" x="20" y="167" width="33" height="30"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mmx-ML-haD">
+                                <rect key="frame" x="93" y="167" width="43" height="30"/>
+                                <state key="normal" title="Pause">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4j-qM-l7P">
+                                <rect key="frame" x="166" y="167" width="56" height="30"/>
+                                <state key="normal" title="Resume">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uuM-Df-utP">
+                                <rect key="frame" x="244" y="167" width="50" height="30"/>
+                                <state key="normal" title="Restart">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="crA-jF-ZOp" id="lG1-zt-WLO"/>
+                        <outlet property="pauseButton" destination="Mmx-ML-haD" id="QI1-mC-XKW"/>
+                        <outlet property="restartButton" destination="uuM-Df-utP" id="8UA-rH-Pnd"/>
+                        <outlet property="resumeButton" destination="J4j-qM-l7P" id="ewe-XS-rb0"/>
+                        <outlet property="startButton" destination="4mP-TO-2zo" id="YCJ-AH-dBm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cOX-Ql-7lA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="657" y="138"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
