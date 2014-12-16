@@ -116,15 +116,15 @@ You can customize many properties from AFSpritzLabel, such as:
 
 ##Wishlist
 
-1. ~~Customize speed throught the number of words per minute.~~
+- [x] Customize speed throught the number of words per minute.
 
-2. ~~Stop and resume the reading.~~
+- [x] Stop and resume the reading.
 
-3. ~~Add a little stop when there's a stop on the text (. … : , ! ?).~~
+- [x] Add a little stop when there's a stop on the text (. … : , ! ?).
 
-4. ~~Restart the reading.~~ (Thanks [Ayberk](https://github.com/ayberkt)!)
+- [x] Restart the reading. (Thanks [Ayberk](https://github.com/ayberkt)!)
 
-5. Different speed based on the word length.
+- [ ] Different speed based on the word length.
 
 ##Author
 
