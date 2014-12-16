@@ -24,8 +24,6 @@ If not, just import these files to your project:
     AFSpritzWords.m
     AFSpritzLabel.h
     AFSpritzLabel.m
-    NSTimer+Blocks.h
-    NSTimer+Blocks.m
     NSTimer+Control.h
     NSTimer+Control.m
 
@@ -33,57 +31,75 @@ If not, just import these files to your project:
 
 First of all, import AFSpritzManager.h to your class
 
-    #import "AFSpritzManager.h"
+```objc
+#import "AFSpritzManager.h"
+```
 
 Initialise ```AFSpritzManager``` assigning a text and a number of words per minute, that will determine the speed of the reading. Theorically, there's no limit, but the more confortable speed is 200-250 words per minute. However, Spritz is made for let you read more than 500 words per minute.
 
-    AFSpritzManager *manager = [[AFSpritzManager alloc]initWithText:@"Welcome to AFSpritz! Spritz is a brand new revolutionary reading method that will help you to improve your number of words per minute. Take a look at AFSpritz!" andWordsPerMinute:250];
+```objc
+AFSpritzManager *manager = [[AFSpritzManager alloc] initWithText:@"Welcome to AFSpritz! Spritz is a brand new revolutionary reading method that will help you to improve your number of words per minute. Take a look at AFSpritz!" andWordsPerMinute:250];
+```
 
 Then, call the block that will update the Spritz label
 
-    [manager updateLabelWithNewWordAndCompletion:^(AFSpritzWords *word, BOOL finished) {
+```objc
+[manager updateLabelWithNewWordAndCompletion:^(AFSpritzWords *word, BOOL finished) {
 
-        if (!finished) {
+    if (!finished) {
 
-			//Update the AFSpritzLabel
-
-        } else {
-            NSLog(@"Finished!");
-        }
-    }];
+		//Update the AFSpritzLabel
+    } else {
+        NSLog(@"Finished!");
+    }
+}];
+```
 
 ###Checking the status
 
-	typedef NS_ENUM(int, AFSpritzStatus) {
-    	AFSpritzStatusStopped,
-    	AFSpritzStatusReading,
-    	AFSpritzStatusNotStarted,
-    	AFSpritzStatusFinished
-	};
+```objc
+typedef NS_ENUM(int, AFSpritzStatus) {
+
+	AFSpritzStatusStopped,
+	AFSpritzStatusReading,
+	AFSpritzStatusNotStarted,
+	AFSpritzStatusFinished
+};
+```
 
 AFSpritz has the feature of checking in each moment the status of the reading using ```-status:```.
 
 Example:
 
+```objc
 	if ([manager status:AFSpritzStatusReading]) {
+
 		// The current status is reading
 	} else if ([manager status:AFSpritzStatusNotStarted]) {
+
 		// The current status is not started yet
 	}  else if ([manager AFSpritzStatusStopped]) {
+
 		// The current status is stopped, so it can be resumed
 	} else if ([manager AFSpritzStatusFinished]) {
+
 		// The current status is finished
 	}
+```
 
 ###Pausing, resuming and restarting
 
 Now you can pause, resume and restart your reading just calling these three methods:
 
+```objc
 	[manager pauseReading];
-
+```
+```objc
 	[manager resumeReading];
-
+```
+```objc
     [manager restartReading];
+```
 
 ##AFSpritzLabel API
 
